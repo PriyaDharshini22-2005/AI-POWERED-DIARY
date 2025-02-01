@@ -75,6 +75,6 @@ streamlit run diary.py
 This project is licensed under the MIT License.
 
 ## Contact
-For any inquiries, please contact us at priyadharshinikameswaran@gmail.com
+For any inquiries, please contact priyadharshinikameswaran@gmail.com
 
 
