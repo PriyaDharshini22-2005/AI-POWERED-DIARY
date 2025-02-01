@@ -1,7 +1,7 @@
 # AI-Powered Diary
 
 
-The **AI-Powered Virtual Diary** is a personal journal application built with **Streamlit**, **Python**, and **MongoDB**, featuring sentiment analysis and AI-driven mood enhancement suggestions. The diary provides users with a **secure, private** space to log their emotions and track their mental well-being over time.
+The **AI-Powered Diary** is a personal journal application built with **Streamlit**, **Python**, and **MongoDB**, featuring sentiment analysis and AI-driven mood enhancement suggestions. The diary provides users with a **secure, private** space to log their emotions and track their mental well-being over time.
 
 ## Features
 - **Password Protection**: Ensures privacy by requiring a password to access the diary.
