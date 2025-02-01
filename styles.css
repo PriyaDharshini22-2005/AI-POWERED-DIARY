@@ -1,0 +1,134 @@
+/* General body styling */
+body {
+    background-color: #121212; /* Dark background */
+    color: #FFFFFF; /* White text color */
+    font-family: Arial, sans-serif; /* Change font family if needed */
+}
+
+/* Button styling */
+.stButton>button {
+    background-color: #FF5733; /* Red background for buttons */
+    color: #FFFFFF; /* White text for buttons */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Inline block */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Add margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for background */
+}
+
+/* Button hover effect */
+.stButton>button:hover {
+    background-color: #C70039; /* Darker red on hover */
+}
+
+/* Text input styling */
+.stTextInput>div>div>input {
+    background-color: #212121; /* Dark gray background for text input */
+    color: #FFFFFF; /* White text color */
+    border: 1px solid #FF5733; /* Red border */
+    padding: 10px; /* Add padding */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Text input focus styling */
+.stTextInput>div>div>input:focus {
+    border-color: #C70039; /* Darker red border on focus */
+    outline: none; /* Remove outline */
+}
+
+/* Markdown styling */
+.stMarkdown {
+    color: #FFFFFF; /* White text color for markdown */
+}
+
+/* Header styling */
+.stHeader {
+    color: #FFFFFF; /* White text color for headers */
+}
+
+/* General text styling */
+.stText {
+    color: #FFFFFF; /* White text color for text */
+}
+
+/* Error message styling */
+.stError {
+    color: #FF5733; /* Red text color for error messages */
+}
+
+/* Success message styling */
+.stSuccess {
+    color: #90EE90; /* Light green text color for success messages */
+}
+
+/* Warning message styling */
+.stWarning {
+    color: #FFD700; /* Gold text color for warning messages */
+}
+
+/* Info message styling */
+.stInfo {
+    color: #1E90FF; /* Dodger blue text color for info messages */
+}
+
+/* Custom title styling */
+.stTitle {
+    color: #FF5733; /* Red text color for the title */
+    font-size: 24px; /* Increase font size for the title */
+    font-weight: bold; /* Make the title bold */
+}
+
+/* Block styling */
+.stBlock {
+    background-color: #212121; /* Dark gray background for blocks */
+    color: #FFFFFF; /* White text color for blocks */
+    padding: 10px; /* Add padding */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth background change on hover */
+}
+
+/* Block hover effect */
+.stBlock:hover {
+    background-color: #333333; /* Darker gray background on hover */
+}
+
+/* Calendar button default styling */
+.calendar-button {
+    background-color: #FF5733; /* Orange background for the calendar button */
+    color: #FFFFFF; /* White text */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Button padding */
+    text-align: center; /* Center align text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display button inline */
+    font-size: 18px; /* Increase font size for better visibility */
+    margin: 4px 2px; /* Margin around the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for background and color */
+}
+
+/* Active (click) state */
+.calendar-button:active {
+    background-color: #C70039; /* Darker orange when pressed */
+    color: #ffffff; /* Ensure text stays white */
+    transition: none; /* Immediate change */
+}
+
+/* Hover effect for calendar button */
+.calendar-button:hover {
+    background-color: #ffffff;
+    color:#FFFFFF /* Darker orange on hover */
+}
+
+/* Focus styling for accessibility */
+.calendar-button:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 5px #FF5733; /* Orange shadow on focus */
+    color: #FFFFFF; /* Ensure text stays white when focused */
+}
